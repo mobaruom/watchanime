@@ -1,11 +1,10 @@
-
 img.img {
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
    transition:1s;
    width: 320px;
 }
-img.img-2:hover{
+img.img:hover{
  filter: invert(100%);
   transition:1s;
 }
