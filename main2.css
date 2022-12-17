@@ -1,16 +1,16 @@
-img.img {
+img.img-2 {
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
    transition:1s;
-   width: 320px;
+   width: 321px;
 }
-img.img:hover{
+img.img-2:hover{
  filter: invert(100%);
   transition:1s;
 }
 div{
 
-  width:100%;
+  
     border-radius: 10px;
 }
 p{
@@ -24,7 +24,6 @@ p{
       padding: 5px 55px;
       cursor: pointer;
      transition:1s;
-        
     }
     button:hover {
       color: #010919;
@@ -260,7 +259,7 @@ nav ul li a {
 .menu-item {
   width: 260px;
   margin: 0 auto;
-  border-radius: 6px;
+  border-radius: 1px;
   overflow: hidden;
 }
 
@@ -582,25 +581,4 @@ details[open] summary ~ * {
   .tertiary {
     font-size: 17px;
   }
-}
-/* End Responsive  */
-
-
-
-
-
-.youtube {
-  position: fixed;
-  bottom: 40px;
-  right: 70px;
-  text-decoration: none;
-  padding: 8px 12px;
-  background: rgba(0,0,0,0.6);
-  border-radius: 6px;
-  box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
-
-.youtube p {
-  font-size: 22px;
 }
